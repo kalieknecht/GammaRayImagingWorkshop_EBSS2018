@@ -153,9 +153,9 @@ if __name__ == "__main__":
 
     # Test initialization of backprojector
     backprojector = ComptonBackprojection2D()
-    print "Shape of image space: %s" %(backprojector.imspace.shape,)
-    print "Shape of image: %s" %(backprojector.img_shape,)
-    print "Image data array dims: %s" %(backprojector.img_data.shape,)
+    print("Shape of image space: ", backprojector.imspace.shape)
+    print("Shape of image: ", backprojector.img_shape)
+    print("Image data array dims: ", backprojector.img_data.shape)
 
     # Test backprojection
     num_events = 1000
